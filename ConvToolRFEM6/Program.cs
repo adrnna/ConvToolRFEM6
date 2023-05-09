@@ -12,8 +12,8 @@ namespace STPToXMLConverter
     {
         static void Main(string[] args)
         {
-            string stpFilePath = @"C:\Users\adpor\Desktop\Adu\programming\upwork\dlubal\File1_STP.stp";
-            string xmlFilePath = @"C:\Users\adpor\Desktop\Adu\programming\upwork\dlubal\File1_OUTPUT_XML.xml";
+            string stpFilePath = @"path\File1_STP.stp";
+            string xmlFilePath = @"path\File1_OUTPUT_XML.xml";
 
             // Read STP file
             string stpContent = File.ReadAllText(stpFilePath);
